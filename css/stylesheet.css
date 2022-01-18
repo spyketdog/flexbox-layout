@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    height: 50vh;
+}
+
+.head {
+    display: flex;
+    background: purple;
+    color: #fff;
+    flex: 1 1 auto;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 10px;
+    font-size: 35px;
+    
+}
+
+.footer {
+    background: rgb(204, 200, 200);
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+   
+    
+}
+
+.body {
+    flex: 1;
+    display: flex;
+}
+
+.leftnav {
+    width: 300px;
+    flex-shrink: 0;
+    background: rgb(28, 180, 231);
+    padding: 10px;
+ }
+
+.container {
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
+    border-radius: 4px ;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 16px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;    
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/*
+@media all and (max-width: 400px) {
+    .leftnav {width: 100vh; height: 50px;}
+    .container {margin-top: 100px;}
+    
+}
+*/    
